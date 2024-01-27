@@ -1203,7 +1203,7 @@ int main(int argc, char *argv[])
 
 python
 
-```
+```python
 #!/usr/bin/env python3
 # 1.导包
 import rospy
@@ -1259,3 +1259,9 @@ if __name__ == "__main__":
     # 6.spin    
     # rospy.spin()
 ```
+
+## 学习过程中的小tips
+
+### 导入其他库的方法
+
+![image-20240127141922975](https://raw.githubusercontent.com/djz47/test/main/20241327.png)
