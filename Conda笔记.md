@@ -18,6 +18,12 @@ conda env rename <旧的名称> <新的名称>
 
 #查看安装了哪些包
 conda list
+
+#移除未曾使用的安装包文件
+conda clean -p
+
+#移除缓存下来的压缩文件（不一定局限于tar/bz2/zip，这里很多conda也算压缩文件）
+conda clean -t
  
 #安装包
 conda install package_name(包名)
